@@ -1,0 +1,59 @@
+body {
+    background-image: linear-gradient(rgb(242, 22, 22), rgb(255, 207, 207), rgb(242, 22, 22));
+    background-attachment: fixed;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+/* Directory */
+.directory {
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    z-index: 2;
+    text-align:center;
+}
+
+.directoryLink {
+    color: rgb(239, 239, 239);
+    font-size: 25px;
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position:relative;
+
+}
+.directoryLink:link {
+    text-decoration: none;
+}
+
+.directoryLink:visited {
+    color: rgb(239, 239, 239);
+    text-decoration: none;
+}
+
+.directoryLink:active {
+    background-color:rgb(145, 145, 145);
+}
+
+/* Main */
+
+.main {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 65%;
+    left: 0;
+    margin-left:17.5%;
+
+}
